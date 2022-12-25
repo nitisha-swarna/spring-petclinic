@@ -28,8 +28,22 @@ pipeline {
                
             }
         }
-
-        stage ('Exec Maven') {
+    
+    stage('Build the Code') {
+            steps{
+                withSonarQubeEnv('SONAR_SELF_HOSTED'){
+            sh script: 'mvn clean package sonar:sonar'
+                }
+            }
+        }
+    stage("Quality Gate") {
+            steps {
+              timeout(time: 1, unit: 'HOURS') {
+                waitForQualityGate abortPipeline: true
+              }
+            }
+          }
+          tage ('Exec Maven') {
             steps {
                 rtMavenRun (
                     tool: 'MAVEN_DEFAULT', // Tool name from Jenkins configuration
@@ -39,9 +53,5 @@ pipeline {
                 )
             }
         }
-
-
-        
-    }
-
+      }  
 }
