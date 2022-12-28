@@ -1,0 +1,822 @@
+[33m9ecdc11[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Polish Thymeleaf templates.
+[33ma5cbb85[m Use WebJars versioned URLs (#1099)
+[33m89f7b4e[m Tweak devcontainer so java and permissions work
+[33mf48227a[m Readability improvements & Use stream instread of forEach (#1055)
+[33m7e91b98[m Change CI step names
+[33m70f615a[m Add support and CI tests for Java 8
+[33m53343c2[m launch java tooling in standard mode right away
+[33md3aabf8[m Attempt to fix codespaces
+[33m39b3ef8[m Ensure gradle home is set in container
+[33m276880e[m Upgrade to Gradle 7.5.1 and to Spring Boot 2.7.3
+[33m6f9dbf5[m Mention Gradle at top level in README
+[33mc576304[m Removed unnecessary semicolons (#998)
+[33ma3294f2[m Upgrade build.grade to spring-boot-starter 2.7.1 (#1016)
+[33m3f84684[m Upgrade to Boot 2.7.1
+[33m4f3cbaa[m Add the Pivotal extension pack to devcontainers (#994)
+[33m5aef5c3[m use Java 17 in devcontainers
+[33mcbf80df[m remove unused import
+[33m5ef8190[m Move vscode settings up a level
+[33m80d03f3[m 985 remove lastName method param from OwnerController
+[33m2a12048[m Update javadoc: it incorrectly said to return 'true'
+[33m21b9486[m Whitespace tidy
+[33mdbcd37f[m Relocate deprecated annotation
+[33mabee859[m Add devcontainer and gitpod
+[33m0c1fa8e[m Update name of deprecated config property
+[33m1db99db[m Update to Spring Boot 2.7.0
+[33m7c91e1b[m Update gradle build boot version
+[33m5ecaccf[m Make postgres data.sql properly idempotent
+[33md381fb6[m Use open session in view and populate model attrs
+[33me870b18[m Update readme.md
+[33m0827bc8[m Update readme.md
+[33m31e5aa6[m Update readme.md
+[33m60ddc68[m Fixed Typo In PetClinicIntegrationTests
+[33m702747f[m Update jacoco to work with Java 17
+[33m604c9c5[m Remove unused node.version
+[33m28ea39c[m Upgrade to Maven Checkstyle plugin 3.1.2
+[33md90ecb6[m Upgrade to spring javaformat 0.0.31
+[33m604a9df[m Upgrade to nohttp 0.0.10
+[33mcae097b[m Upgrade to Spring Boot 2.6.3
+[33m9cb8dde[m Add section on building a container
+[33mbdcaa85[m Alternative approach with eager fetch
+[33me765e3f[m Fix lazy loading issue in owner details
+[33m8a28801[m Add actuators to Gradle build
+[33m4725753[m Additional tweaks in aggregate model.
+[33mb559077[m Remove manual id management in child entities
+[33m43beff9[m Avoid dropping Postgres schema
+[33m423a337[m Move Visit to owner package (it's aggregate root)
+[33m58fe629[m Also remove VisitRepository
+[33ma5da14a[m No need for exclusion in recent versions
+[33mc953442[m Remove PetRepository and use Owner as aggregate
+[33m778161f[m Update to Boot 2.6.2
+[33ma7439c7[m Mention Gradle build in readme
+[33m094d302[m Upgrade to Spring Boot 2.6.1 and fix Maven build
+[33mf015573[m Update for recent changes in mvn build
+[33m4df621b[m Make build work with Gradle
+[33mce626da[m Add support for PostgreSQL
+[33m20adfb7[m Update docker-compose.yml to version 2.2
+[33meff7c95[m Use "date" type for date inputs
+[33m67c8bf6[m Fix ignores
+[33m83e0749[m Tidy up properties in build config
+[33m576c4eb[m Remove unused css files
+[33m4ecc4c3[m Make buttons look normal again
+[33mff2febe[m Put CSS generation in a Maven profile
+[33m7ea2836[m Alternative approach with libsass-maven-plugin
+[33m4d4727f[m No need for jquery
+[33m1095a15[m Convert to SCSS and Bootstrap 5
+[33m4f2f8fa[m Remove redundant interface
+[33m3eba970[m Fix page links
+[33mb45f5be[m Update to Spring Boot 2.5.6
+[33mbc35c40[m Remove travis config file
+[33m30d0e2a[m Use the provided maven wrapper
+[33m198f5e2[m Replace Travis badge by GitHub actions one
+[33m0016ae9[m Add GitHub actions maven-build.yml
+[33m0162107[m Add note on Java version
+[33maf9a0a4[m Update to Boot 2.5.5
+[33m8bfe9e6[m Tidy imports
+[33m0a1b3dd[m Add license file
+[33me57ef71[m Ensure real database is used if mysql profile active
+[33me11a594[m Tidy up test
+[33m8ad9c05[m Add pagination for owners and vets lists in HTML
+[33m25ba162[m Add delimiter to list of pets
+[33m11f1234[m Upgrade to Spring Boot 2.5.4
+[33m321cfa7[m Merge pull request #805 from DanielFran
+[33m5149957[m Upgrade to Maven 3.8.2
+[33me7c879e[m Update petclinic_db_setup_mysql.txt
+[33mb91e213[m Fix docs for setting profiles
+[33m8954fa9[m Add note about autocrlf on windows
+[33m0d8a80d[m Clarify that a JDK is needed
+[33m525dc6a[m Only attempt to login to docker on main
+[33md0e4e77[m Only attempt to login to docker on main
+[33maf1857c[m Add javaformat plugin to Eclipse workaround
+[33m39d60e2[m Configure an inline m2e lifecycle mapping for wro4j-maven-plugin
+[33m09e0786[m Update Spring Boot to 2.4.5
+[33me2fbc56[m Only publish docker image from main branch
+[33ma0d743c[m Do not fail packaging if repo info is absent
+[33m3a04088[m Add docker push to CI
+[33m04471ae[m Update to Boot 2.4.2
+[33m02babdd[m Upgrade to Spring Boot 2.4.1
+[33m8065ad0[m Merge pull request #707 from Arka-Bandyopadhyay
+[33m0573cda[m Downgrade to wro4j 1.8.0
+[33m502870d[m Remove IDE specific configuration files
+[33m949278c[m remove .vscode folder from project repository
+[33mab9135a[m Upgrade to Spring Boot 2.4.0
+[33m8b1ac67[m Updated user for mysql
+[33m7615395[m Upgrade to Spring Boot 2.3.5
+[33m656b7c8[m Merge pull request #650 from piyush-garg
+[33ma1eaaa6[m Upgrade to wro4j 1.9.0
+[33mf6c1a69[m Merge pull request #670 from akashsolanki
+[33me5ef4d3[m Remove redundant junits dependencies
+[33m2710901[m Restore version to 2.3.0.BUILD-SNAPSHOT
+[33mbe0f161[m Upgrade to Checkstyle 8.32
+[33m2e5be53[m Upgrade to spring javaformat 0.0.25
+[33md19963e[m Upgrade to Spring Boot 2.3.3
+[33mc42f959[m remove push-to-pws button from guide, since pws free trials end
+[33m02cc842[m Polish
+[33m5ad6bc3[m Upgrade to spring javaformat 0.0.22
+[33m4953f87[m Update application-mysql.properties
+[33m0390e85[m adding new message in Spanish
+[33md367e2b[m Updating spacing on step list
+[33m73ede82[m Replace references to main branch
+[33m07b9d5a[m Ensure fragment for menu items is not itself rendered
+[33md173555[m Update to Boot 2.3.1
+[33m410abc2[m remove trailing slash
+[33m9873188[m Change EditorConfig to reflect some files are indented with 2 spaces
+[33md94b995[m Change EditorConfig to be consistent with spring-javaformat
+[33m907eea3[m Upgrade to Maven 3.6.3 and Maven Wrapper 0.5.6
+[33mc9230c3[m Bump to Spring Boot 2.3.0
+[33madab01e[m Upgrade to maven checkstyle plugin 3.1.1
+[33m6a18eec[m Upgrade to spring javaformat 0.0.21
+[33m6288622[m Switch actuator to standard path
+[33md9f37ec[m Upgrade to Spring Boot 2.3.0.RC1
+[33m56f0933[m Merge pull request #586 from jelliotartz
+[33m8db8c27[m Fix typo in readme
+[33m8805eaa[m Disable open-in-view explicitly to remove warning on startup
+[33mc0847b7[m Add support for H2
+[33me624588[m Upgrade to spring javaformat 0.0.20
+[33ma79cb9a[m Upgrade to Spring Boot 2.2.5
+[33me0eec8e[m Add m2e profile for well-known plugins
+[33m5c35771[m Wrong name for user.sql  script
+[33mac3e642[m Update checkstyle plugin for security scan warning
+[33m1cc942a[m Add nohttp check
+[33m7e64f55[m Merge pull request #522 from vbadipat
+[33m400e302[m Polish "Use https for Maven XSD"
+[33m5742ecd[m Use https for Maven XSD
+[33m9387366[m Upgrade to spring javaformat 0.0.19
+[33m108a81b[m Upgrade to Spring Boot 2.2.4
+[33m4e1f874[m Apply spring-format plugin
+[33m82cb521[m Fix MySQL docker command line in readme
+[33m5d57e0d[m Re-organise mysql scripts so the app runs without root access
+[33mf9424b5[m Spring Boot 2.2.2
+[33m1561eb5[m Add proxyBeanMethods = false
+[33m2c98a68[m Uncomment sql initialization for mysql
+[33md47820b[m Update to Spring Boot 2.2.1
+[33m32301ed[m Fix compatibility with Java 13
+[33m6e4c31c[m Merge pull request #360 from arey
+[33m253e6fd[m Polish "Migrate tests to JUnit 5"
+[33mac69dbb[m Migrate tests to JUnit 5
+[33mce7c3f9[m Upgrade to Spring Boot 2.2.0.RELEASE
+[33mf284b29[m Upgrade to Spring Boot 2.1.9.RELEASE
+[33mbb7e847[m Merge pull request #457 from cordin
+[33mecae6d7[m Upgrade to Maven 3.6.2 and Maven Wrapper 0.5.5
+[33me280d12[m Fix docs on mysql, use initialization-mode
+[33m7ef045d[m Make Pet.visits @Transient
+[33md6bdc13[m Move Push-to-PWSX button on the next line
+[33mb6a619c[m Update Push-to-PWS button image
+[33me157f20[m Clarify the docs on mysql
+[33m02adb1d[m Attempt to fix travis build by hardcoding Ubuntu dist
+[33m912d2ad[m Add VS Code to list of IDEs
+[33m7481e88[m Upgrade to Spring Boot 2.1.6.RELEASE
+[33m11d0ed4[m update table id attribute in ownersList.html
+[33m8394b7d[m Merge pull request #417 from BoykoAlex
+[33mdc337f5[m Polish "Push-to-PWS integration"
+[33m39897cc[m Push-to-PWS integration
+[33mbebe9e5[m Merge pull request #418 from wengertj
+[33m8919c73[m Polish "Cleanup tests by using more idiomatic assertj assertions"
+[33m3f838c2[m Cleanup tests by using more idiomatic assertj assertions
+[33m6e24f5d[m Upgrade to Spring Boot 2.1.4
+[33md2831f9[m Merge pull request #405 from Eskibear
+[33m5d73726[m Upgrade maven wrapper
+[33mbe24e0c[m Fix Apache license headers
+[33m7855425[m Merge pull request #397 from spring-operator
+[33m765680c[m Polish "URL Cleanup"
+[33mf4bed3c[m URL Cleanup
+[33m0c59090[m Polish
+[33mbe60080[m Merge pull request #396 from spring-operator
+[33meef57ab[m URL Cleanup
+[33m91fa971[m Update to latest Boot and add some gitignores
+[33m827dc12[m Revert "Remove redundant component scan filter"
+[33m8472aa0[m Upgrade to Spring Boot 2.1.2.RELEASE
+[33m5808126[m Merge pull request #383 from mustafau
+[33mdbbd3ea[m Remove SonarQube configuration file
+[33mab56724[m Remove redundant component scan filter
+[33mdf359ab[m Update to Boot 2.1.1
+[33m13f1bfb[m Update to Boot 2.1.0
+[33m85aab20[m Merge pull request #369 from figueroaRicardo
+[33m8869750[m Fix links
+[33m3b36b80[m Add reference to Spring Petclinic Forks
+[33m1ada9ba[m Merge pull request #358 from arey
+[33m8bee2f8[m Polish "Add documentation for IntelliJ IDEA"
+[33m6de9562[m Add documentation for IntelliJ IDEA
+[33m71cfa2b[m Merge pull request #359 from oltruong
+[33me0684bf[m Fix indent in readme.md
+[33mf31ead5[m Add notes on building a jar
+[33m895730c[m Simplify build definition
+[33md49cc42[m Add missing repository definition
+[33m1feea1f[m Polish
+[33mb982e66[m Clarify docs on MySql and STS
+[33me823df3[m Update to Spring Boot 2.1
+[33m60105d5[m Use Jacoco rather than cobertura
+[33m73c9ac5[m Upgrade to Spring Boot 2.0.4.RELEASE
+[33m5f75745[m Merge pull request #335 from cruftex:fix-cache-comment
+[33m893a18f[m Polish "Clarify cache configuration"
+[33m22ff398[m Clarify cache configuration
+[33m645ebc4[m Merge pull request #334 from cruftex:fix-link
+[33m02ef593[m Fix wrong link for CacheConfiguration
+[33m1a317e6[m Merge pull request #332 from arey:feature/browserCache
+[33m895422b[m Polish "Enable caching of static resources"
+[33m46babda[m Enable caching of static resources
+[33m3c9afdc[m Polish
+[33m5ff057d[m Remove misleading production profile
+[33m415bd73[m Fix devtools module declaration
+[33m492b485[m Merge pull request #330 from arey:bugfix/jmeter
+[33me7eabca[m Adapt JMeter script to recent changes
+[33mbcce267[m Merge pull request #328 from arey:feature/LocalDate
+[33m4c22d01[m Polish "Use Java 8 LocalDate instead of java.util.Date"
+[33mc0748e3[m Use Java 8 LocalDate instead of java.util.Date
+[33m38bd328[m Update to Boot 2.0.3
+[33m5270246[m Polish
+[33m4d6ee84[m Upgrade to Spring Boot 2.0.2.RELEASE
+[33m4406031[m Merge pull request #326 from aidenchiavatti:json-fix
+[33meebca43[m Polish "Fix content negotiation for /vets"
+[33m8eb5074[m Fix content negotiation for /vets
+[33m6905e38[m Make MySQL configuration files/docs consistent
+[33mdd5b080[m Merge pull request #319 from Nalad:master
+[33md568bca[m Fix including template in layout fragment
+[33m932f17d[m Fix dead links
+[33mb527de5[m Upgrade to Spring Boot 2.0.0.RELEASE
+[33mce26296[m Merge pull request #303 from arey:feature/date
+[33md92a421[m Add placeholder YYYY-MM-DD for date input field
+[33mfadf7f4[m Merge pull request #278 from arey:feature/rest
+[33m0d847ed[m Add spring-petclinic-rest URL
+[33m1062269[m Fix actuator exposure
+[33mdfcd30b[m Fix project's version
+[33m34545e7[m Merge pull request #301 from saturnism:patch-1
+[33mc5abf45[m Fix datasource initialization property
+[33ma52cbe9[m Add ignores for vscode
+[33mcdd802e[m Update webjars-locator dependency
+[33m6730a22[m Add repository declarations for snapshots
+[33mc91b73e[m Update version of Petclinic
+[33mcf35266[m Tidy up compiler warnings
+[33m14ef611[m Update to Spring Boot 2.0 snapshots
+[33mc36452a[m[33m ([m[1;33mtag: 1.5.x[m[33m)[m Use leading / in app URL
+[33me20b43b[m Update PetControllerTests.java
+[33m23f65ba[m Fix broken tests
+[33m45da5a4[m Fix date formatting
+[33m5b0f037[m fix: make id 'lastName' in findOwners.html unique
+[33m3e65dee[m fix button text in createOrUpdatePetForm.html in case of new pet (issue #252)
+[33m4ab6a80[m Removing .springBeans
+[33m4be8ba2[m Replace @RequestMapping by their corresponding shortcut @GetMapping and @PostMapping
+[33m4b3d6ab[m Reference new forks: spring-petclinic-kotlin, spring-petclinic-graphql and spring-petclinic-rest
+[33m05e891c[m Removed redundant javadoc comments
+[33mfa3b7f9[m Add CLA link to readme
+[33m162d8d8[m Add Apache 2.0 license #260
+[33mcdbfafe[m set pet to owner to avoid null owner when user gets an error on new pet page
+[33m101c9dc[m Update Spring Boot and Thymeleaf versions
+[33mffa967c[m spring-petclinic-angular1 repo renamed to spring-petclinic-angularjs
+[33mfd1c742[m Do not fail maven build when git directing is missing
+[33mf792522[m Merge pull request #229 from henri-tremblay:ehcacheback
+[33m75912a0[m Polish contribution
+[33m443d35e[m Put Ehcache back
+[33m63dadcc[m Make all entity fields private
+[33m0a51540[m Fix serializability of Vet
+[33mbe13722[m Polish
+[33md2ec371[m Restore actuator access with Spring Boot 1.5
+[33m126bd97[m Polish
+[33mc7657df[m Remove ehcache (at least temporarily)
+[33me8882e8[m Update CacheConfig link
+[33m90b8df9[m Update to 1.5.1
+[33m8026953[m Configure caching properly to avoid error in vets
+[33m0f840cd[m Change artifactId to 'spring-petclinic'
+[33m6da37c3[m Use default cache configuration
+[33m0c7db64[m Make mysql configuration more first class
+[33m8b76a54[m Update mysql readme
+[33m837483f[m Fix incorrect glyphicon name
+[33m61be1ba[m Fix #207 set pet owner when for has an error
+[33mca2a665[m Correct view as xml url
+[33m7dcae7c[m Fix Javadoc error
+[33m706c6fc[m Replace anonymous class with lambda
+[33m87ee7ca[m Exclude groovy because it isn't used
+[33mcb3156e[m Add ignores
+[33m195903b[m Clarify nature of GitHub org split
+[33m131a588[m Use wro4j instead of lesscss plugin
+[33me20b96a[m Reference spring-petclinic/spring-framework-petclinic project instead of the legacy branch
+[33m83ff9a5[m Modularize and migrate to aggregate-oriented domain
+[33m8c85992[m Add reference to the spring-petclinic-microservices fork
+[33madc92a4[m Using absolute URL
+[33m2052b0c[m Adding "Interesting Spring Petclinic branches and forks" section
+[33m97f6d4c[m #192 Adding screenshot
+[33m0c0da7a[m Fixing markdown table layout
+[33m9c11c70[m Update readme for Spring Boot fetaures
+[33m095b1a3[m Move util class to test code
+[33me38a9fe[m Convert to jar with thymeleaf
+[33m3450c3d[m Add Git commit information to the /manage/info endpoint
+[33md69b896[m Fix #171 Jetty 9 support by removing Dandelion
+[33mf78ee5d[m Using the @CacheResult JSR-107 JCache annotation
+[33m6ff35b6[m Update Springboot Petclinic version to 1.4.1
+[33mb889abb[m Replace SpringJUnit4ClassRunner by SpringRunner
+[33mc0ac1ff[m Upgrade to Spring Boot 1.4.1
+[33ma9b6565[m Remove dependency with joda time to simplify the project dependencies
+[33m4d90e7e[m Display build-related information into the /manage/info endpoint
+[33md189dbf[m Merge pull request #182 from snicoll/ehcache3
+[33ma41b83a[m Upgrade to Ehcache 3
+[33mb96e109[m Add a Dockefile and configure the  docker-maven-plugin
+[33m8645807[m Remove unused properties
+[33m89d0e24[m Merge branch 'master' into springboot
+[33me525415[m Convert Controler's integration test to unit test
+[33m620141d[m Convert Controler's integration test to unit test
+[33m1080006[m Merging AbstractClinicServiceTests and ClinicServiceSpringDataJpaTests then using the Spring Boot @DataJpaTest annotation
+[33m2637f65[m Upgrade to Spring Boot 1.4.0
+[33mdbd1e54[m responsive menu fix
+[33m0adaea9[m Upgrade to Spring IO Platform to 2.0.7
+[33m84d5e82[m Merge pull request #177 from AndrejGajdos/master
+[33mef4a808[m Fix #172 'mvn site' fails with cobertura-maven-plugin version 2.7
+[33meac4366[m Merge pull request #175 from meltsufin/master
+[33mfa46685[m responsive menu fix
+[33med0ab2a[m Use build finalName instead of warName in pom.xml
+[33meddc72c[m Upgrade Spring IO Platform to 2.0.6
+[33md77f31c[m Fix Jetty 9 startup
+[33m2f3e035[m The maven-war-plugin does not failed on missing web.xml
+[33m1a6572d[m Replace web.xml by PetclinicInitializer
+[33m835f53d[m Remove spring-boot dependencies
+[33m515f8d9[m Fix jQuery version
+[33mbbc1c8b[m Add some missing trimDirectiveWhitespaces on JSPs
+[33m30fbe76[m A few fixes to the readme.md for Spring-Boot branch
+[33mb3080cc[m Updated instructions to switch into springboot branch
+[33mc39ed81[m Fixed typo
+[33m1e412c6[m Add some missing trimDirectiveWhitespaces on JSPs
+[33m6163868[m Revert "Make jar not war"
+[33mbe048ae[m Make jar not war
+[33mfd524d0[m Centralized framework versions to the properties section
+[33m7b488c6[m Merge pull request #163 from ameya-pandilwar/fix-157
+[33m6be7ec5[m Add the generated/ directory for easier switching between master and develop branches
+[33m078bdc6[m #149 JdbcPetRepositoryImpl:: findById() simplification
+[33m9a1298b[m Merge pull request #168 from verydapeng/spring-projects/springboot
+[33meb6f934[m migrate to webjars for frontend resource management
+[33m4c72246[m Update vetsXml test using xpath
+[33m62e4e56[m Merge pull request #167 from verydapeng/spring-projects/springboot
+[33m077f4eb[m simplify content negotiation setup
+[33m647985c[m Add a reference to the Spring Boot branch
+[33ma2849f7[m Simplify jsp layout management abstract the page layout into “layout.tag”
+[33m52ea744[m Merge pull request #166 from verydapeng/spring-projects/springboot
+[33maa8cc43[m simplify jsp layout management
+[33m415d78b[m #164 Update readme.md with Spring Boot configuration
+[33m805cadc[m Merge pull request #165 from verydapeng/spring-projects/springboot
+[33mbeb46b2[m support switching db init script at deployment
+[33m1f42b76[m #164 Set Dandelion active profile to "prod" when Spring production profile is enabled
+[33m50f46fd[m Remove outdated HTML files
+[33m4da41db[m #164 Disable cache configuration for unit tests
+[33me9f5f7b[m #164 Add main class required by the spring-boot-maven-plugin
+[33ma6e81a5[m #164 Spring Boot version of Petclinic ready to deploy to an external web container (ie Tomcat)
+[33mbe7acc5[m Upgrade Spring IO Platform to 2.0.5
+[33m76a4ca3[m Merge pull request #159 from attil-io/visit-repository-fix
+[33mca755be[m Improvements in VisitRepository.findByPetId implementation.
+[33m817fabd[m Fix #155 Fix logback + JMX memory leak on web application reload
+[33m05f7cf4[m Merge pull request #152 from DevFactory/release/general-code-quality-fix-1
+[33mad3d322[m Fising squid:S2970, squid:S1192, squid:S1488, squid:UselessParenthesesCheck
+[33m44b591f[m Using Spring Boot Dataflow UI graphic theme
+[33me74b1bc[m #141 Configure Unicode and UTF-8 MySQL database for Chinese language
+[33mb68d7fc[m Merge pull request #146 from trepel/mvnwrunreadmefix
+[33mfa8bb74[m Merge pull request #145 from liouxiao/fix-for-issue-144
+[33m597d29c[m Fix of how to run Petclinic in readme
+[33me6ca8a3[m fix issue #144: remove redundant less-than sign
+[33mea8ab07[m Merge branch 'bootstrap-3' of https://github.com/liouxiao/spring-petclinic into bootstrap-3
+[33m9a150fc[m Merge pull request #131 from ameya-pandilwar/update-link-title
+[33m7dcf82a[m Fix #78 Migrate to Bootstrap 3.x
+[33m482eeb1[m Revert "Jetty 9.3 support"
+[33m4b1f7a7[m Jetty 9.3 support
+[33m203d20e[m Upgrade to Spring IO Platform 2.0.3
+[33m78a2532[m Merge pull request #136 from lukasz-szewc/staticFiles-jquery-url-fix
+[33m9ad12d3[m Merge pull request #134 from broccolinisoup/master
+[33m87d025f[m fixed url for jquery-ui. There was typo "query" instaed of "jquery" and file cannot be loaded
+[33me7f6899[m owners search has been case insensitive
+[33mdf4e3a5[m Merge pull request #132 from patrickcrocker/mvnwrapper
+[33m3185ed4[m added missing .mvn folder needed for maven wrapper
+[33m6f349ec[m Update link navigation title to make it consistent
+[33mca8781b[m #129 add travis-ci "build status" badge
+[33mcc53f63[m travis.ml -> .travis.yml
+[33m216db91[m Adding Travis configuration file
+[33m843ce28[m Upgrade to Spring IO Platform 2.0.2
+[33m3623eab[m Merge pull request #127 from thinkshihang/patch-1
+[33m0504ec9[m Update petclinic_db_setup_mysql.txt
+[33md6697d8[m Add Maven Wrapper with mvn -N io.takari:maven:wrapper
+[33m3a9e0f3[m Align petclinic version to the Spring Framework one
+[33m95de1d9[m Using Mockito and Hamcrest version from the Spring.IO Platform
+[33m2398c4d[m Merge pull request #119 from colinbut/master
+[33mc65cfb6[m moving from Webjars to Bower #83: renaming bower_components to vendor, update readme.md
+[33m4803b71[m Merge pull request #125 from faissalwise/bower
+[33m540d31e[m moving from Webjars to Bower #83
+[33ma768e87[m fixed ehcache dependency
+[33m71fa089[m Spring IO platform 2.0.1
+[33m845d31e[m Added test class for Controllers plus a test for PetTypeFormatter
+[33m288548c[m Merge pull request #113 from trepel/visitdatefix
+[33me00dfb3[m Using jodatime LocalDate instead of DateTime for visits
+[33m19d7767[m #98 Add a contributing section
+[33m92de655[m Fix #111 For pet's birthday we are now using jodatime LocalDate instead of DateTime
+[33m4aa89ae[m Fix #110 owner and pet validators failed
+[33mdd552f4[m Fix #108 owner update
+[33m3bcf845[m  #77 move Session scope attributes to the request scope instead
+[33m6a94d7e[m Remove uncessary _method=put parameter and enable the "POST new visit" HTTP request
+[33m4c0d311[m Merge pull request #106 from trepel/dandelionupdate
+[33m5e11b4b[m JMeter script from Julien Dubois
+[33m63d8f12[m Update of Dandelion to 1.1.1
+[33m81fac33[m #96 change EditorConfig in order to  impact other files than Java and XML (i.e.. jsp and html pages)
+[33m295574f[m Merge pull request #104 from trepel/minorcommentsfixes
+[33m2270e24[m Removal of redundant comments
+[33m09ed33a[m #96 Reformat code with EditorConfig
+[33m1aef94d[m #95 Downgrade to AssertJ 2.2.0 to be compatible with Java 7
+[33m566fdac[m Merge pull request #99 from trepel/removalofputmethod
+[33m8b5d980[m Fix #95 migrate to AssertJ 3.2.0
+[33m77bd960[m Merge pull request #98 from freemansoft/master
+[33m4bb829c[m Fix #101 display the pet type when using the JDBC profile
+[33mcb0504e[m #92 add some comments to switch from HSQLDB to MySQL
+[33mf7498c7[m Removed HTTP PUT method - it is not supported in JSP 2.3
+[33me0be3a3[m added temporary fix for json-simple
+[33m5a6c108[m Added comments when CallMonitoringAspect called
+[33me8c944f[m remove version number
+[33mc18c845[m Add missing json-simple dependency
+[33m06be7eb[m #92 Use column alias
+[33m91d19d1[m #92 Fix column 'visits.id' not found on MySql
+[33m39ab836[m moved spring-data dependency to boot-starter
+[33m85a2be1[m adding spring boot starter and removing spring-aop
+[33m8e3848f[m upgraded to latest version of Dandelion
+[33m122c8a7[m Upgrade to Spring IO platform v1.1.3.
+[33m7326267[m #90 Remove the json-path version which be inherited from the spring.io BOM
+[33mbc9682c[m #87 Downgrade to AssertJ 2.1.0 in order to build Petclinic with the JDK 7
+[33m11af3ae[m #90 Reduce the POM size by inheriting from the spring.io BOM
+[33m0fdd150[m Removing deprecated javadoc
+[33m7fe5184[m Servlet 3.0, JSP 2.2 and EL 2.2 are the minimum required to deploy Petclinic
+[33m8b62561[m #87 Petclinic should be compatible with Java 7 for the time being
+[33m80ff54a[m Fix #89 Web layer: use @Valid whenever possible
+[33ma07cf69[m Fix #88 upgrading to Hibernate Validator 5.1.3
+[33m5e56bc2[m Using JSP and JSTL version from the <properties> section
+[33m98d9bbb[m Removing reference to the unknown UserResource class
+[33m71f2424[m Remove explicit unboxing
+[33m6f6fa64[m Remove unused VisitRepository from constructor
+[33mca3bb07[m Remove unused WebApplicationContext property
+[33m1b4d425[m Fix typo into javadoc
+[33m735fb11[m Remove explicit unboxing
+[33mdc0fb9a[m removing unused method #85
+[33m5570366[m Use a simple RowMapper instead of a BeanPropertyRowMapper
+[33m8d20340[m removed unused attribute #64
+[33m8965499[m Merge pull request #82 from arey/#64-optim1
+[33mfb64465[m Add some javadoc
+[33m818529b[m #64 Remove N+1 select by using the OneToManyResultSetExtractor of Spring Data Core JDBC Extensions
+[33m08d55c9[m Merge pull request #81 from srenkens/patch-1
+[33mae15df1[m Update readme.md
+[33mcb6bd87[m Putting encoding filter first per #80
+[33mb265fc8[m Adding instruction to fix build on Maven 3.2.x
+[33mad423f5[m Change javaconfig branch URL to spring-projects
+[33me8ba735[m updates on links
+[33m546ba6b[m minor presentation fix
+[33m19ef3be[m adding Java Config to links on github homepage
+[33m72dc0c8[m Merge pull request #48 from 7footmoustache/patch-1
+[33m83301cb[m Centering content
+[33m54b7d87[m Fixing log back warning per #59
+[33mc00d1ab[m Merge pull request #72 from ka2m/master
+[33mc553d39[m Merge pull request #67 from mklose/patch-1
+[33m3945cba[m Fixing #54
+[33m271225c[m libs upgrade
+[33mc8e3602[m fixed bug: vets.html did not display properly
+[33m91ed548[m removing xdd version number
+[33m4c859ed[m minor update on comment
+[33ma595058[m removed unused dependency to spring-jms
+[33m80c1d24[m Removed RSS/rome and added JSon
+[33mc2c404b[m JSon support
+[33mecd9ccb[m fixed POM configuration issue for Spring Data
+[33mf958964[m moving to Java 1.8 by default
+[33m9914056[m removing test that causes lots if issues
+[33mf760aaf[m removing unneeded dependency-management block
+[33mb20ba1a[m Merge branch 'Cobertura'
+[33m694390d[m migrated assertion to assertJ
+[33m099b848[m Update JDBC file naming in MySQL steup instruction
+[33m38a5b28[m Improving/fixing comments
+[33maeec710[m Adding Maven config for Cobertura
+[33m3f2d3ba[m fix typo
+[33m74d61b3[m update libraries
+[33mcc4ae96[m removed deprecated Mapper in Jdbc
+[33md8a2b5c[m cleanup on tests
+[33m1dfc3b7[m Migrated test assertions to AssertJ
+[33m35a179f[m latest versions and imports cleanup
+[33m3e45127[m Sonar review: made code more readable
+[33m1c9b401[m cleaned up if statement in controller
+[33m5c9ab6b[m test methods:used should/shouldNot
+[33m7080682[m workaround because there seems to be a conflict
+[33mecefae2[m Upgraded to latest Spring Data and AspectJ
+[33md7b100f[m Removed 'Help' from menu
+[33m49c39b6[m renamed headTag.jsp -> staticFiles.jsp
+[33m85c8237[m added comment on <mvc:default-servlet-handler />
+[33m6e079b2[m Error control on description was missing
+[33mf0bf692[m Moving "visit" object to request scope
+[33m92e7ab4[m Simplified ContentNegoViewResolver config
+[33m8929d37[m upgraded to Spring Data 1.7.0
+[33m475f5f5[m migrated to Spring 4.1.1.RELEASE
+[33mf5cf426[m upgraded to Joda Time 2.5
+[33m74f683a[m Fixed typo
+[33m0a03a05[m moved to AspectJ 1.8.2 and Dandelion 0.10.1
+[33mdf1596b[m using latest versions of hibernate, spring-data, joda...
+[33mde73bdc[m Fixed some typos in comments
+[33m9f6814d[m updated versions of Spring Data and AspectJ
+[33ma04d789[m versions upgrade.
+[33mce50e80[m Merge pull request #42 from bram-atmire/documentation-fix
+[33m45fb0c4[m Merge pull request #44 from tduchateau/master
+[33mfba9e78[m Updated README with the Dandelion-Datatables configuration file
+[33m5c4aaa6[m Merge pull request #43 from tduchateau/master
+[33me99c67a[m Upgraded Dandelion-Datatables to the latest release (v0.10.0)
+[33m1341c12[m update db_readme.txt to reflect properties rename
+[33mce7e6e8[m updated URL on cloud foundry
+[33m8ee6c79[m updated lib versions
+[33m3f0bfbb[m updates logo
+[33m622291a[m Merge branch 'master' of https://github.com/SpringSource/spring-petclinic
+[33m7dc6da2[m Merge pull request #39 from arey/patch-1
+[33m5e329e1[m Merge branch 'master' of https://github.com/SpringSource/spring-petclinic
+[33m4a47731[m Merge pull request #38 from arey/master
+[33m67ae72f[m Remove public to methods from the ClinicService
+[33mc8759c4[m upgraded version of SLF4J
+[33ma4f18cb[m migrating to Hibernate 4.3.3.Final
+[33m35a94ea[m migrating to Spring 4.0.2
+[33m076a124[m Fixes #37 with other default locale than english
+[33m53abaf5[m upgrading jadira-usertype
+[33m1e1a149[m migrated to ehcache 2.6.8
+[33m50f0bc9[m migrated to LogBack 1.1.0
+[33m43216fb[m migrated to Hibernate 4.3.1
+[33m053c84e[m migrated to Spring 4.0.1
+[33m08d84ed[m added comment for welcome file
+[33m5cfd482[m removed default profile and replaced with "jpa"
+[33mea81fe0[m Spring Data JPA: migrated to 1.4.3.RELEASE
+[33m8e268b7[m Merge branch 'migration-to-Spring-4.0.0'
+[33m377bc63[m migrated pom to Spring 4 and Servlet 3
+[33m8a67145[m migrated to dandelion 0.9.3
+[33m3e8829f[m adding explicit reference to default profile because it doesn't seem to work on on some environments
+[33m74abfb1[m migrated to Spring 3.2.5
+[33mc193916[m started changes to migrate to Bootstrap 3 (work in progress)
+[33m34d8ca4[m chaining validation so we can see multiple error messages when there are multiple validation errors
+[33mc4b9b0b[m migrated to the latest version of jquery and jquery-ui
+[33m31b6022[m migrated to latest version of Spring Data and HSQLDB
+[33m18c3dac[m updated to latest version of AspectJ and Dandelion datatables
+[33m8d78f3a[m typo
+[33mb32cb10[m adding more info about Eclipse validation issue
+[33m8b7714c[m fixed typo
+[33m31df5eb[m Petclinic is now deployed to Cloudfoundry v2. Adding a link to it: http://gopetclinic.cfapps.io/
+[33mb7764e3[m Added comments to explain how database dialect is configured #33
+[33mf653895[m migrating to Dandelion 0.9.1
+[33m729275b[m migrating to Spring  Data 1.4.1
+[33m0cac939[m Merge pull request #30 from cyrille-leclerc/server-static-resources
+[33m5797f0b[m Merge pull request #29 from cyrille-leclerc/fix-spring-version
+[33m91b61f4[m migrated to joda-time 2.3
+[33m46a0b72[m fixed one more broken link
+[33m9a75b8c[m fixed broken links in readme
+[33m1aa9360[m fixed a broken link
+[33me15e45b[m Spring MVC should server static resources (*.html, ...) located in src/main/webapp instead of returning "404 Not Found"
+[33m706b139[m pom:xml: use <dependencyManagement> to force versions of spring-core, spring-context and spring-beans to 3.2.x. instead of exclusions on spring-data-jpa dependency because Maven sometimes pulls both versions 3.2.x and 3.1.x versions of coring-core, spring-beans and spring-context.
+[33m657b868[m migrated to Spring 3.2.4
+[33m6902cb8[m migrated to latest version of Spring Data, tomcat-jdbc and hsqldb
+[33m4c01d60[m removing Serializable because it creates a lot of warnings
+[33m6412e48[m Merge pull request #25 from boly38/patch-1
+[33m7b16cb8[m Merge pull request #23 from cyrille-leclerc/master
+[33me50583f[m Update BaseEntity.java
+[33m6942397[m removing reference to Cloudfoundry instance until petclinic is migrated to CloudFoundry v2
+[33m2eaf498[m Introduce a "jee" Spring profile to retrieve the datasource with a JNDI lookup.
+[33m3904bee[m Merge pull request #22 from cyrille-leclerc/system-property-placeholders
+[33m8c5bbed[m Allow to override data-access.properties with System Properties
+[33mc13f141[m introducing a "default" profile so default configuration is simpler
+[33md279d45[m version upgrade
+[33madb702f[m Merge pull request #19 from CloudBees-community/gitignore-for-intellij
+[33mf0f8997[m Add intellj project files to .gitignore
+[33ma2a12c4[m #18 Simplified Validator test so it doesn't have to use Spring config anymore
+[33m754e27c[m removing unneeded attribute name
+[33m7b8a9ec[m #18 fixing error related to VisitsViewTests
+[33m4f8063e[m #18 fixing 2 errors related to ValidatorTests
+[33meb8ba79[m moved cache config files to dedicated folder
+[33md1cc655[m migrated from commons-dbcp to tomcat-jdbc
+[33mb8b8e5a[m Merge pull request #17 from TejasM/master
+[33mf0b00da[m Select Tag to validate pet type
+[33mbca9c48[m unused imports
+[33m2b0d07b[m moved from Model to Map so we do not use a Spring-specific class
+[33mbd9446e[m removed unneeded dependencies
+[33m6a1b4dd[m updated version of spring data and removed unused dependencies
+[33m4620119[m upgraded version numbers for ehcache, logback, jadira-usertype, dandelion
+[33m840c0a4[m fixing JPA query for Vets
+[33m5bf31db[m fixed JPA issue when updating existing owners/pets
+[33me308871[m added a link to issue tracker
+[33m80159fa[m fixed bug in JPA implementation: "save" methods were implemented using "merge" instead of "persist"
+[33ma9b0b47[m ref doc
+[33m8890b3b[m added a table in the ref doc
+[33m297e98f[m version upgrades on Hibernate, Dandelion, jadira-usertype
+[33mc88e3d4[m added a JUnit test for Bean Validation
+[33m193e758[m added encoding configuration so people can enter Chinese characters inside all the forms.
+[33m9489b92[m currently reverting to hibernate validator 4.3.1.Final as there seems to be some issues with EL lib
+[33m2b98dcd[m migrated to Hibernate Validator 5.0.1 (see https://hibernate.atlassian.net/browse/HV-790)
+[33ma485521[m changed file path. Thanks to @cmourouvin for letting me know.
+[33m753e8ea[m upgraded to latest versions of Logback, jaxb and Joda Time taglibs
+[33m74045b9[m added link to Spring Data GemFire branch
+[33m1741e85[m migrated to Hibernate-Validator 5.0.0.Final and solved EL issue
+[33m9410901[m upgrading version of HIbernate Validator
+[33mbd0ffc1[m migrated to latest version of dandelion and jadira-usertype
+[33m993257f[m We're now able to use Spring Data there
+[33m16e3e4b[m version updates and simplification on some dependencies
+[33m14d1b4d[m simplifying logging dependencies
+[33m628e142[m fixing URL pattern issue
+[33m357ee0b[m did some cleaning on logging dependencies
+[33m1a42038[m migrated to Dandelion 0.8.9
+[33med226f7[m fixing typo
+[33m0cb2b68[m clarified links for dandelion-datatables and migrated to dandelion 0.8.8
+[33mdf0d048[m various updates to the documentation file
+[33m6086dec[m updated copyright information
+[33mbb32cd8[m adding HTML 5 doctype header
+[33mf160322[m Added comment because https://jira.springsource.org/browse/DATAJPA-292 has been resolved
+[33me2d80d3[m removing duplicate
+[33mfa1e1a8[m isEnabled -> enabled
+[33md58d617[m upgraded to dandelion 0.8.7
+[33m8e59a81[m Integer Instantiation
+[33m3b922a1[m added jsp-api dependency back
+[33mc0d183c[m removed lots of unused dependencies
+[33m7c2e6de[m removed direct dependency to spring-bean because it's already there as a transitive dependency
+[33md08173d[m removed unused dependency jDom
+[33m28b3b29[m removing unused dependency commons-pool
+[33mc49b0ae[m removed unused dependency commons-lang3
+[33mc5bb1e3[m removed unused dependency javassist
+[33m2671d7c[m removed unused dependency JBoss logging
+[33m85e5f63[m simplified the POM
+[33m06a48e4[m migrate to Spring 3.2.2
+[33m024811d[m simplifying access to Integer
+[33mc4dbb1f[m added comment
+[33m96cd34d[m renamed jdbc.properties -> data-access.properties
+[33m3fe122d[m moved caching to the Service layer
+[33me0ba8bf[m organized imports
+[33m842f9ac[m added comments about OSIV
+[33m9591555[m Merge pull request #7 from tduchateau/master
+[33m51d4fd8[m Updated Dandelion version
+[33mdd0eb5a[m improved/updated Javadoc in JUnit tests
+[33m46fa288[m fixing Spring config file naming issue in web.xml
+[33mbf41a4b[m integrate dandelion config for Servlet 2 compatibility
+[33m95e8b64[m merged pull request to integrate dandelion
+[33mfaca0eb[m moved to tests to service level package
+[33mebfa300[m fixed issue with jqueryui path
+[33md7f5cd1[m renaming dao-config.xml -> business-config.xml
+[33mbe403a3[m migrate all JUnit Integration tests from the repo layer to the service layer (step 1)
+[33m3d9a37f[m Merge pull request #3 from tduchateau/master
+[33m82d6f5e[m Merge branch 'master' of https://github.com/SpringSource/spring-petclinic
+[33m18aa56c[m Merge pull request #4 from jdubois/master
+[33md28f4e5[m Adding a DISTINCT clause so we only have users once
+[33mb3b5361[m Transactions should be on the root application context (or Hibernate will not be able to persist entities)
+[33m65065a8[m Added compatibility with Servlet2.x containers
+[33me44552e[m Added Dandelion-Datatables
+[33m223ca19[m adding a text file in case some people are confused about not finding Spring config files inside WEB-INF
+[33m9ee5e6f[m visit dates were not consistent
+[33mfde14be[m improved layout
+[33m70c046a[m Fixed test using Spring MVC Test framework
+[33m222f1d1[m minor edits to readme file
+[33m447adf8[m described install process in readme file
+[33m9cd3c9e[m embedded server: moved from Jetty to Tomcat
+[33m9ba5811[m Integrating Gordon's work
+[33med116de[m Merge pull request #2 from gordonad/master
+[33m2ab9422[m updated runtime & provided dependencies
+[33m14f8822[m file formatting and missing @Override on Java classes
+[33m4626001[m switched to modern logback for logging, see logback.xml and logback-test.xml for configuration
+[33mcf9a540[m more comments
+[33m2c8f035[m Updated Project configuration for best practices
+[33mcec8110[m moved Spring config files and changed AtomView example so it is based on Vets instead of Visits
+[33md92d531[m test doesn't run for now, disabling it until bug is solved
+[33m057015c[m Spring MVC Test Framework and migration to Spring 3.2.1
+[33me36bff7[m removed unusued jpa configuration file (because Spring configuration doesn't rely on it)
+[33mddbe4b5[m renamed test packages so they are aligned with main packages
+[33m6a8edd9[m removed unused AOP config
+[33mb2626bd[m reviewed Javadoc for abstract test classes
+[33m54a0186[m added Javadoc and licence info for jdbc implementation
+[33m790ebb5[m improved javadoc for jpa implementation
+[33ma81b333[m added Javadoc comments for Spring Data JPA
+[33md9cce68[m javadoc cleanup for repository interfaces
+[33m7a5af7a[m improved Javadoc comments and added licence info
+[33m254d05a[m minor issue in javadoc comment
+[33mebe7551[m added exception stacktrace into an html comment
+[33m0c09ec3[m added @Cacheable support with ehcache
+[33m4ccf1ea[m did some clean up for ViewResolvers configuration
+[33mc5ca72e[m made sure @Transactional is not set on the Repository layer
+[33m4e91b44[m removed TopLink-specific and Hibernate-specific properties
+[33m23314c5[m moved all model classes to a dedicated 'model' package
+[33m0a5ea0b[m moved aspect to util package
+[33me924e87[m moved Validator to the web package
+[33m539f763[m adding licence information to all files in the web layer
+[33mcd88b8c[m Javadoc and xml documentation improvements
+[33med3df00[m Pets were getting old
+[33ma994785[m made sure the ClinicService facade is used by all Controllers
+[33m4d6496e[m Merge pull request #1 from rstoyanchev/polish
+[33m3e66379[m Polish
+[33m572ef6e[m moved pointcut to @Repository instead of @Service
+[33m5699bf8[m cleaned up AOP usage
+[33m0e60b03[m fixed naming issue in vet list
+[33m47ddd6f[m Fixed issue with Atom export
+[33m97e1890[m web config enhancements
+[33m5b8ef8e[m replacing one Spring Data Repo with native JPA
+[33m8f531f3[m added custom tag
+[33m07e535a[m fixed issue in the 'createVisit' form
+[33m57c9043[m fixed issues in the Pet creation form
+[33m6eae697[m improved pet creation form
+[33mab5a3e2[m improve look and feel of the menu bar
+[33m60cfb7f[m fixed JDBC bug
+[33mae9085d[m added CrashController to showcase behaviour when exception occurs
+[33m2df7267[m updated a broken link and renamed script files for mysql
+[33mbe84882[m removed Eclipse/IntelliJ files
+[33m2ebf756[m packagesToScan doesn't need a list of values
+[33me97c9a4[m removed Autowiring at the field level
+[33m74eb3e7[m removing JdbcTemplate so we use NamedParameterJdbcTemplate solely when possible
+[33mf44e383[m fixed lazy loading issues
+[33m56c7671[m webapp now using JPA by default
+[33m8b6cfab[m removing datasource declaration so we only rely on an internal database connection pool
+[33me93f0f6[m removing xml OR mapping so we only use annotations
+[33m3482d54[m renamed profiles and removed unnecessary@DirtiesContext annotation so the Test suite now runs in 40% less time
+[33m87e08f7[m misc updates to tutorial page
+[33m4cd6979[m removed unneeded declarations inside web.xml
+[33m0c24083[m removed appserver-specific files
+[33mfeca50d[m added jQueryUI
+[33m95cb32d[m used tag c:out for EL to prevent HTML injection
+[33md88b565[m migrated all dates to joda time
+[33mc4b5a98[m navbar, reorganized JSP folders
+[33mf06cf8c[m Improvements to layout
+[33m97aba3f[m added a Spring Data implementation
+[33mc9c8c4e[m moved the ClinicRepository into some separate repos
+[33m16b1476[m Simplified exception page handling
+[33m3d22e37[m improvements to Visit controller
+[33mece1a7a[m fixing a RequestMapping issue
+[33me9b6aff[m Merged Pet Controllers into a single one
+[33m0fe4793[m improvements to Owner Controller
+[33m5432a19[m started adding support for Spring Data
+[33mdf5c5ca[m gave more explicit names to JSPs
+[33mffa0a6a[m improved alignment in forms
+[33m6f7b422[m added .html extension for all JSP/html content
+[33m05c1110[m fixed content negotiation configuration
+[33mbfa4f85[m removed source folder (not used anymore)
+[33m09c92b3[m general cleanup
+[33m5c25ef9[m removed former Hibernate xml configuration
+[33m0c2665f[m added bean profiles for jdbc/jpa
+[33mb459ca3[m added aspectj decaration. All JUnit tests are now successful
+[33m608c42f[m migrated from SimpleJdbcTemplate to JdbcTemplate
+[33m4e35adb[m migrated to hsql 2.2.8 and fixed a couple of JPA issues
+[33m9f8acc0[m migration to JPA annotations
+[33m099847c[m Spring MVC config and layout in 'vets' section
+[33m9a77b56[m cleaned up CSS and migrated to Bootstrap
+[33m5139c8d[m added header to all JSPs
+[33m58d82e4[m handled all exception messages inside Spring config
+[33maeeeace[m renaming controllers so they all have 'Controller' suffix
+[33mc690c9d[m removed static inclusion of jsp
+[33m6dd1acd[m adding gitignore file
+[33m87ccf9f[m first step of migration to Spring 3.2 (still in process)
+[33m5f25d74[m removing authors
+[33mb586740[m removing authors
+[33m52d4b20[m Apply patch from SPR-7894
+[33m7cbfaf1[m Fix Petclinic case-sensitivity problems against MySQL (SPR-7512)
+[33m0b9d98b[m disable welcome files (for Servlet 3 compatibility)
+[33m973c45b[m date picker
+[33m4bf4f8e[m + add aspects jar back to the war
+[33mffd7a46[m + removed optional marker on some dependencies so they get included in the final war
+[33ma7ae7df[m + upgrade to AJ 1.6.8 + add dedicated section for Tomcat 5.5 and Tomcat 6 LTW setup (so it's clearer)
+[33m84455ff[m + update commons-pool to 1.5.3 to avoid some memory leaks
+[33m1f59a26[m + add comment about Tomcat 6
+[33m6f6d950[m jdom needed for rome
+[33m6f1ca5d[m format
+[33m6d0d36f[m polish
+[33mdee6a35[m aspectj is required
+[33m9ef38c5[m polish
+[33m58fe477[m correct commons logging exclude
+[33m33a5c87[m tweaks
+[33md7f75cf[m Fixed pom optional bugs
+[33mbcda93f[m Slf4j update
+[33m57e17d3[m finally got rid of commons logging
+[33m905d982[m + improved war structure
+[33mc0a9be9[m commons logging exclusion for openjpa
+[33mbd07ffc[m polish
+[33m31733db[m fixed test suite failing
+[33m1b48694[m removed test suite class
+[33mef838ad[m Switched to embedded db
+[33m737d478[m polish
+[33m3dc88e0[m polish
+[33m4b68a74[m update to 3.0.0.RELEASE
+[33m66dff75[m added some extra space to avoid sponsored by SpringSource message being covered by the picture of the pets
+[33mfa6fd10[m SAMPLESPET-3 + move spring application context files under a dedicated folder (to prevent JBoss XML parser from choking) http://forum.springsource.org/showthread.php?t=68949
+[33mdd521eb[m SAMPLESPET-3 + renamed META-INF/persistence.xml to META-INF/jpa-persistence.xml since JBoss will scan it automatically and complain about non-jta-resources declared.
+[33m6116d12[m SPR-6447 SPR-6449
+[33mfe63e9c[m + add default servlet definition (for containers that do not declare it - such as GlassFish) + increase Spring version to RC3 (it works with trunk just fine)
+[33md8b7615[m SPR-6447 + add missing datasource import to hibernate config
+[33m93a378a[m SPR-6447 + fixed tab/spaces consistency
+[33m6f056b5[m SPR-6447 + removed unused script
+[33md6b57ac[m SPR-6447 + improve mysql script to prevent data from being added if it's already present
+[33ma8cc006[m SPR-6447 + extracted datasource definition into a separate file to eliminate redundancy + introduce jdbc: namespace
+[33m5db88f4[m SPR-6447 SPR-6448 + add JSTL libraries to the war for portability
+[33ma36bc3c[m SPR-6447 SPR-6448 + add JSTL libraries to the war for portability
+[33m9617efe[m SPR-6447 + improve DataSource setup
+[33m19173a0[m SPR-6447 + improve DataSource setup
+[33mc9c939d[m SPR-6447 + add more clarifications
+[33md077058[m SPR-6447 + moved JPA/AOP META-INF/ files into the webapp classpath
+[33m8291c80[m SPR-6447 + added on the fly db configuration to all contexts + removed schema numbers to always pick the latest version
+[33m50b87ef[m SPR-6447 + moved db files around + moved JPA/AOP META-INF/ files into the webapp classpath
+[33md109fdd[m SPR-6447 SPR-6449 + fix the packaging of some libraries to prevent weird class loading problems from occuring
+[33mc0b90bf[m SPR-6447 + move jdbc scripts from META-INF into /resources
+[33m521d01d[m SPR-6447 SPR-6448 + commit the gross of the files + added maven pom
+[33m9dd07f0[m SPR-6447 + added basic files
+[33m2781809[m appointments
+[33m0901364[m owner pages
+[33md4fc5b0[m polish
+[33m75504b8[m polish
+[33m9106b83[m polish
+[33m2742ccb[m moved pets under owners
+[33mcc199a7[m polish
+[33m775e85d[m polish
+[33m24ea3e9[m artifact id update
+[33m098cfb6[m upgrade to spring 3.0.0.m3
+[33md8014ae[m petclinic tiles
+[33me7a6c22[m logging
+[33md5cf151[m will add css later
+[33m556824d[m styles
+[33m7ff5e85[m app deploys and runs - initial commit
+[33mf09d67c[m petclinic 3 initial commit - wip
+[33m349fdef[m Initial commit
