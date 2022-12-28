@@ -3,7 +3,7 @@ pool:
   vmImage: ubuntu-20.04
 
 trigger:
-  - master  
+  - REL_INT_2.0
 
 
 steps:
